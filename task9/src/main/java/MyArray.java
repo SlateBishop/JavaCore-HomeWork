@@ -1,7 +1,7 @@
 import java.util.Random;
 
 public class MyArray {
-    private static int LEGAL_ARR_SIZE = 4;
+    private static final int LEGAL_ARR_SIZE = 4;
 
     public int sumMyArray(String[][] arr) {
         int result = 0;
