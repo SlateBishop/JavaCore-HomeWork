@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.stream.Stream;
 
 public class ThreadSpeedTester {
     private static final int SIZE = 10000000;
@@ -86,6 +85,4 @@ public class ThreadSpeedTester {
         speedTest.firstMethod();
         speedTest.secondMethod();
     }
-
-    Stream
 }
