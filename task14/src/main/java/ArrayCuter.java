@@ -15,6 +15,9 @@ public class ArrayCuter {
                 return null;
             }
         }
+        if (lastNumPoint == -1) {
+            throw new RuntimeException("Массив не содержит цисло " + num);
+        }
         int[] result = new int[(arr.length - lastNumPoint - 1)];
         System.arraycopy(arr, lastNumPoint + 1, result, 0, result.length);
         return result;

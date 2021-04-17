@@ -35,7 +35,7 @@ public class ArrayCuterTest { //extends TestCase {
         assertNull(arrayCuter.cutArray(test1, 5));
     }
 
-    @Test
+    @Test(expected = RuntimeException.class)
     public void testCutArray1() {
         assertArrayEquals(test1, arrayCuter.cutArray(test1, 0));
     }
